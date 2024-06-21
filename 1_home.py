@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 
 if "data" not in st.session_state:
-    df_data = pd.read_csv("dtset/fifadataset2023.csv", index_col=0)
+    df_data = pd.read_csv("dataset/fifadtst.csv", index_col=0)
     df_data = df_data[df_data["Contract Valid Until"] >= datetime.today().year]
     df_data = df_data[df_data["Value(£)"] > 0]
     df_data = df_data.sort_values(by="Overall", ascending=False)
