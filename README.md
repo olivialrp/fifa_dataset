@@ -14,10 +14,9 @@ Release clause: Contract release clause amount.
 
 ## How to Run
 
-Install the required packages (if not already installed):
-pip install streamlit
+pip install requirements
 
-pandas
+(streamlit, pandas)
 
 Clone the repository:
 git clone https://github.com/olivialrp/fifa_dataset.git
