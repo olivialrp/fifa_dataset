@@ -17,7 +17,7 @@ btn = st.link_button("access the dataset on Kaggle", "https://www.kaggle.com/dat
 
 st.markdown(
     """
-    The Football Player Dataset from 2017 to 2023 provides comprehensive information about professional football players.
+    The Football Player Dataset from 2023 provides comprehensive information about professional football players.
     The dataset contains a wide range of attributes, including player demographics, physical characteristics,
     playing statistics, contract details, and club affiliations. With over 17,000 records, this dataset offers a valuable resource
     for football analysts, researchers, and enthusiasts interested in exploring various aspects of the footballing world,
